@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 30px;
+
+// .panel-tabset-tabby a {
+//     font-size: 0.7em;
+// }
+
+.panel-tabset {
+    font-size: 0.8em;
+}
+
+.subhead {
+    color:green;
+    font-style: italic;
+}
+
+.warning {
+    color:red;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+#vcenter {
+    vertical-align: middle;
+  }
