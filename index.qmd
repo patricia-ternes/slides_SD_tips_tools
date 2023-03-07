@@ -7,7 +7,7 @@ This is a index page for the "Software development - good practices, tips & tool
 
 ## Slides:
 
-- [ ] slides day 1
+- [ ] [slides day 1](./1-SD_nutshell.qmd)
 - [ ] slides day 2
 - [ ] slides day 3
 - [ ] slides day 4
