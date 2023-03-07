@@ -1,8 +1,15 @@
 ---
 title: "Slides: Software development - good practices, tips & tools"
-format: revealjs
+format: html
 ---
 
-This is a Quarto website.
+This is a index page for the "Software development - good practices, tips & tools" training Quarto slides collection.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Slides:
+
+- [ ] slides day 1
+- [ ] slides day 2
+- [ ] slides day 3
+- [ ] slides day 4
+- [ ] slides day 5
+- [ ] slides day 6
