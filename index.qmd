@@ -1,5 +1,5 @@
 ---
-title: "Template Revealjs Quarto site"
+title: "Slides: Software development - good practices, tips & tools"
 format: revealjs
 ---
 

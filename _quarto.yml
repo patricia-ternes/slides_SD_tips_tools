@@ -2,6 +2,6 @@ project:
   type: website
 
 website:
-  title: "Template quarto revealjs project"
-  site-url: https://sparrow0hawk.github.io/template-revealjs-quarto
-  description: "Template site for revealjs with quarto"
+  title: "Slides: Software development - good practices, tips & tools"
+  site-url: https://patricia-ternes.github.io/slides_SD_tips_tools
+  description: "Slides for the "Software development - good practices, tips & tools" Training."
