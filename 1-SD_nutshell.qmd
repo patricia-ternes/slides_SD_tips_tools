@@ -32,33 +32,29 @@ pagetitle: Software Development in a Nutshell
 ### Ideation
 
 :::: {.columns }
-
-::: {.column #vcenter width="80%"}
-
+::: {.column width="80%"}
 ::: {.subhead}
 What are we going to do?
 :::
+<br>
 
 - Brainstorming
 - Research
-
 :::
 
 ::: {.column width="20%"}
 ![](assets/img/sd-nutshell/ideation.jpg)
 :::
-
 ::::
 
 ### Requirements
 
 :::: {.columns}
-
 ::: {.column width="80%"}
-
 ::: {.subhead}
 How are we going to do it?
 :::
+<br>
 
 Some topics to help define requirements include:
 
@@ -69,31 +65,31 @@ Some topics to help define requirements include:
 - what resources are available
 - deadlines
 - potential risks
-
 :::
 
 ::: {.column width="20%"}
 ![](assets/img/sd-nutshell/requirements.png)
 :::
-
 ::::
 
 ::: {.warning}
+<br> <br>
 Warning: Each person involved in the project may have a different need.
 :::
 
 ### Design
 
 :::: {.columns}
-
 ::: {.column width="80%"}
 
 ::: {.subhead}
 What is the software architecture?
 :::
+<br>
 
 When designing software, the object-oriented approach is a common programming paradigm.
 
+<br>
 Object-oriented components:
 
 - Classes: A user-defined type
@@ -101,12 +97,14 @@ Object-oriented components:
 - Methods: A function which is “built in” to a class
 - Constructor: A special method called when instantiating a new object
 
+<br>
 Some principles: abstraction, encapsulation, decomposition, generalisation
 
 :::
 
 ::: {.column width="20%"}
 ![](assets/img/sd-nutshell/design.png)
+See more:
 [![](assets/img/sd-nutshell/uml.png)](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
 :::
 
@@ -121,18 +119,18 @@ Some principles: abstraction, encapsulation, decomposition, generalisation
 ::: {.subhead}
 Is this where the fun begins?
 :::
+<br>
 
-# Take your time!
-
-Development is usually the most time consuming step in a Software Development Life Cycle.
+# Take your time
 
 :::
 
 ::: {.column width="20%"}
 ![](assets/img/sd-nutshell/dev.png)
 :::
-
 ::::
+
+Development is usually the most time consuming step in a Software Development Life Cycle.
 
 ### Test
 
@@ -143,9 +141,17 @@ Development is usually the most time consuming step in a Software Development Li
 ::: {.subhead}
 Is this software good?
 :::
+<br>
 
 In this step, errors and failures are identified by exposing the code to an environment similar to the end-user experience.
 
+<br>
+There are several types of testing, some examples include:
+
+- **Unit testing:** are all components working?
+- **Integration testing:** are all components working when fitted together?
+- **Performance testing:** how does the software perform against different workloads? It is fast? Stable?
+- **Functional testing:** is the software aligned with Software Requirement Specification?
 :::
 
 ::: {.column width="20%"}
@@ -154,55 +160,36 @@ In this step, errors and failures are identified by exposing the code to an envi
 
 ::::
 
-There are several types of testing, some examples include:
-
-- **Unit testing:** are all components working?
-- **Integration testing:** are all components working when fitted together?
-- **Performance testing:** how does the software perform against different workloads? It is fast? Stable?
-- **Functional testing:** is the software aligned with Software Requirement Specification?
-
 ### Deployment
 
 :::: {.columns}
-
 ::: {.column width="80%"}
-
 ::: {.subhead}
 Can other people use my code?
 :::
+<br>
 
 You can use platforms like [GitHub](https://github.com/) to release your software.
 
+<br>
+
+- The **functionality** of the software is linked to **several specifications** related to the operating system and versions of packages and other software related to the project.
+- **Listing these specifications will help** others to replicate the environment in which the software was developed.
 :::
 
 ::: {.column width="20%"}
 ![](assets/img/sd-nutshell/deployment.png)
 :::
-
 ::::
-
-- The **functionality** of the software is linked to **several specifications** related to the operating system and versions of packages and other software related to the project.
-- **Listing these specifications will help** others to replicate the environment in which the software was developed.
 
 ### Maintenance
 
 :::: {.columns}
-
 ::: {.column width="80%"}
-
 ::: {.subhead}
 Is it over?
 :::
-
-You can use platforms like [GitHub](https://github.com/) to release your software.
-
-:::
-
-::: {.column width="20%"}
-![](assets/img/sd-nutshell/maintenance.png)
-:::
-
-::::
+<br>
 
 We can classify maintenance into a few categories:
 
@@ -210,7 +197,11 @@ We can classify maintenance into a few categories:
 - **Preventive:** regular checks and fixes.
 - **Perfective:** optimize implemented features, adding new features.
 - **Adaptive:** keep the software updated according to changes external to the project (new programming language version, new regulation, etc.).
-
+:::
+::: {.column width="20%"}
+![](assets/img/sd-nutshell/maintenance.png)
+:::
+::::
 :::
 
 <!-- personalized links -->
